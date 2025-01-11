@@ -48,7 +48,7 @@ void setup() {
 
   // Configure pins
   pinMode(TRIGGER_PIN, INPUT_PULLUP);    // External ON/OFF switch
-  pinMode(POWER_LED_PIN, INPUT_PULLUP);  // PC power LED pin
+  pinMode(POWER_LED_PIN, INPUT);  // PC power LED pin
   pinMode(POWER_BTN_PIN, INPUT);         // Initially high-impedance
   pinMode(LED_TRIGGER_STATE, OUTPUT);    // Debug LED for trigger state
   pinMode(LED_PRESS_ACTIVE, OUTPUT);     // Debug LED for button press
